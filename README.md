@@ -2,10 +2,13 @@
 
 Un installeur réalisé sous WPF en C# moderne épuré et simple d'utilisation.
 
-# Configuration requise
+# Configuration requise pour la compilation
 -.Net Framework 4.6 ou supérieur
 
 -Visual studio 2017 ou supérieur
+
+# Configuration requise pour l'utilisateur
+-.Net Framework 4.6 ou supérieur
 
 # Génération de l'installeur
 
@@ -13,7 +16,7 @@ Remplacer {AppName} par le nom de l'application et {PackageUrl} par l'url du paq
 
 # Paquet d'installation
 
-Doit être un fichier zip contenant une dossier bin contenant l'application et un fichier package.json sous cette forme:
+Doit être un fichier zip contenant: un dossier bin contenant l'application et un fichier package.json sous cette forme:
 
 {
 
