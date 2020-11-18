@@ -32,7 +32,7 @@
                 </Button>
                 <Image Source="/eclipium.png" Height="50" Width="50" Margin="19,19,709,360" />
                 <Label Foreground="White" Content="Eclipium Installer" VerticalContentAlignment="Center" FontSize="25" FontWeight="Bold" Margin="75,20,53,360"  />
-                <Image Source="Logo.png" Height="120" Width="120" Margin="75,116,585,194" />
+                <Image x:Name="Logo"  Height="120" Width="120" Margin="75,116,585,194" />
                 <Label Foreground="White" Content="Programme d'installation de" VerticalContentAlignment="Top" FontSize="26" FontWeight="Normal" Margin="200,115,82,265"  />
                 <Label Foreground="White" x:Name="title" Content="ApplicationName"  VerticalContentAlignment="Bottom" FontSize="50" FontWeight="Bold" Margin="201,132,53,197"  />
                 <Label x:Name="txt" Foreground="White" VerticalContentAlignment="Bottom" HorizontalContentAlignment="Center" FontSize="16" FontWeight="Normal" Margin="141,251,141,129"  />
