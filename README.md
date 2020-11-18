@@ -12,7 +12,7 @@ Un installeur réalisé sous WPF en C# moderne épuré et simple d'utilisation.
 
 # Génération de l'installeur
 
-Remplacer {AppName} par le nom de l'application et {PackageUrl} par l'url du paquet d'installation.
+Remplacer {AppName} par le nom de l'application, {ImageUrl} par l'url du logo de l'application et {PackageUrl} par l'url du paquet d'installation.
 
 # Paquet d'installation
 
