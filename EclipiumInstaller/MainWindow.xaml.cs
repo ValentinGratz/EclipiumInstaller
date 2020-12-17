@@ -30,8 +30,8 @@ namespace EclipiumInstaller
         public MainWindow()
         {
             InitializeComponent();
-            InitializeInstaller("{AppName}", "{PackageUrl}", "{ImageUrl}");
-            //InitializeInstaller("Hieroctive", "https://launcher.eclipium.ga/GamesPackages/Hieroctive.zip", "https://launcher.eclipium.ga/Images/hieroctiveRounded.png");
+            ///InitializeInstaller("{AppName}", "{PackageUrl}", "{ImageUrl}");
+            InitializeInstaller("Red, Blue and Green", "https://launcher.eclipium.ga/GamesPackages/RedBlueAndGreen.zip", "https://launcher.eclipium.ga/Images/LogoRbgRounded.png");
         }
 
         private void InitializeInstaller(string AppName, string AppUrl, string ImageUrl)

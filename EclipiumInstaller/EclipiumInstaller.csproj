@@ -134,9 +134,6 @@
     <Resource Include="eclipium.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="eclipium.png" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Newtonsoft.Json.dll" />
     <EmbeddedResource Include="System.IO.Compression.ZipFile.dll" />
   </ItemGroup>
